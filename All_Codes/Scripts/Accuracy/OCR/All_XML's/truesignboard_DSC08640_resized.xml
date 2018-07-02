@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<SB type="R">                  // Right Indicative/Left Indicative/Non-indicative signboards
+	<info>                 
+		<dir>
+			<text>
+				<eng>STREET - M1</eng>
+				<hin>मार्ग - एम 1</hin>	
+			</text>
+			<arrow>R</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>		
+	</info>
+	<extrainf>
+		<glare>N</glare>
+		<shadow>N</shadow>
+		<blur>Y</blur>
+		<skew>N</skew>
+	</extrainf>
+	<dim>
+		<Width>W</Width>
+		<Height>H</Height>
+		<TopLeftX>X</TopLeftX>
+		<TopLeftY>Y</TopLeftY>
+	</dim> 
+</SB>

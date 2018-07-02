@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<SB type="L">                  // Right Indicative/Left Indicative/Non-indicative signboards
+	<info>                 
+		<dir>
+			<text>
+				<eng>EAST CAMPUS / NEELKANTH</eng>
+				<hin>पूर्व  परिसर / नीलकंठ</hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>DIRECTOR'S LODGE / GIRLS HOSTEL</eng>
+				<hin>निर्देशक निवास / महिला छात्रावास</hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>KENDRIYA VIDYALAYA / POST OFFICE</eng>
+				<hin>केन्द्रीय विद्यालय / डाक घर</hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+	</info>
+	<extrainf>
+		<glare>N</glare>
+		<shadow>N</shadow>
+		<blur>N</blur>
+		<skew>Y</skew>
+	</extrainf>
+	<dim>
+		<Width>W</Width>
+		<Height>H</Height>
+		<TopLeftX>X</TopLeftX>
+		<TopLeftY>Y</TopLeftY>
+	</dim> 
+</SB>

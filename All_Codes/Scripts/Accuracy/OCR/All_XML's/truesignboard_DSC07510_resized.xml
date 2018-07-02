@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<SB type="N">                  // Right Indicative/Left Indicative/Non-indicative signboards
+	<info>                 
+		<dir>
+			<text>
+				<eng>TRANSPORT SERVICES</eng>
+				<hin>परिवहन सेवाए</hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>AUTO WORKSHOP </eng>
+				<hin>आटो वर्कशाप</hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>HORTI. DEPTT.</eng>
+				<hin>वागवानी विभाग</hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>HOSTEL AREA</eng>
+				<hin>छात्रावास क्षेत्र </hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+	</info>
+	<extrainf>
+		<glare>N</glare>
+		<shadow>Y</shadow>
+		<blur>N</blur>
+		<skew>N</skew>
+	</extrainf>
+	<dim>
+		<Width>W</Width>
+		<Height>H</Height>
+		<TopLeftX>X</TopLeftX>
+		<TopLeftY>Y</TopLeftY>
+	</dim> 
+</SB>

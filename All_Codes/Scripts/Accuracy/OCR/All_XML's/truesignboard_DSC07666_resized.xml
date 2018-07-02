@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<SB type="N">                  // Right Indicative/Left Indicative/Non-indicative signboards
+	<info>                 
+		<dir>
+			<text>
+				<eng>SPEED BREAKERS AHEAD</eng>
+				<hin>सावधान गति रोधक</hin>	
+			</text>
+			<arrow>N</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+	</info>
+	<extrainf>
+		<glare>N</glare>
+		<shadow>N</shadow>
+		<blur>N</blur>
+		<skew>N</skew>
+	</extrainf>
+	<dim>
+		<Width>W</Width>
+		<Height>H</Height>
+		<TopLeftX>X</TopLeftX>
+		<TopLeftY>Y</TopLeftY>
+	</dim> 
+</SB>

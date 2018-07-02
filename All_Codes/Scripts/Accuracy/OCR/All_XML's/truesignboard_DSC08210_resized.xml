@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<SB type="R">                  // Right Indicative/Left Indicative/Non-indicative signboards
+	<info>                 
+		<dir>
+			<text>
+				<eng>EAST AVENUE</eng>
+				<hin>ईस्ट एवेन्यू</hin>	
+			</text>
+			<arrow>R</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>CENTRAL SCHOOL</eng>
+				<hin>केन्द्रीय विद्यालय </hin>	
+			</text>
+			<arrow>R</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>NEELKANTH / COMMUNITY HALL</eng>
+				<hin>नील कंठ / सामुदायिक हॉल</hin>	
+			</text>
+			<arrow>R</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>SHOPPING CENTRE POST OFFICE</eng>
+				<hin>शापिग सेन्टर डाक घर</hin>	
+			</text>
+			<arrow>R</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+	</info>
+	<extrainf>
+		<glare>N</glare>
+		<shadow>N</shadow>
+		<blur>N</blur>
+		<skew>N</skew>
+	</extrainf>
+	<dim>
+		<Width>W</Width>
+		<Height>H</Height>
+		<TopLeftX>X</TopLeftX>
+		<TopLeftY>Y</TopLeftY>
+	</dim> 
+</SB>

@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<SB type="L">                  // Right Indicative/Left Indicative/Non-indicative signboards
+	<info>                 
+		<dir>
+			<text>
+				<eng>ARAVALI HOSTEL</eng>
+				<hin>अरावली छात्रावास</hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>KARAKORAM HOSTEL </eng>
+				<hin>काराकोरम छात्रावास</hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>NILGIRI HOSTEL</eng>
+				<hin>नीलगिरी छात्रावास </hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>TAXILA VAISHALI APTS</eng>
+				<hin>तक्षशिला वैशाली अपार्टमेन्टस</hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+	</info>
+	<extrainf>
+		<glare>N</glare>
+		<shadow>N</shadow>
+		<blur>N</blur>
+		<skew>N</skew>
+	</extrainf>
+	<dim>
+		<Width>W</Width>
+		<Height>H</Height>
+		<TopLeftX>X</TopLeftX>
+		<TopLeftY>Y</TopLeftY>
+	</dim> 
+</SB>

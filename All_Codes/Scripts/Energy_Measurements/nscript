@@ -1,0 +1,22 @@
+#!/bin/bash
+export GOOGLE_APPLICATION_CREDENTIALS=/home/pi/Desktop/apikey.json
+cd /home/pi/visionex/mixed_resized
+python tem.py
+cd ../face_our_dataset_network_analysis
+cd 1
+python faceonlycopy.py
+python all.py
+cd ../2
+python faceonlycopy.py
+python all.py
+cd ../4
+python faceonlycopy.py
+python all.py
+cd ../../animal_network_analysis/cow
+python animalcopy.py
+python animalcopyall.py
+cd ../../sbd_network_analysis
+python ocrnewcopy.py
+python ocrnewcopyall.py
+python ocrnewcopyboth.py
+python ocrnewcopyallboth.py

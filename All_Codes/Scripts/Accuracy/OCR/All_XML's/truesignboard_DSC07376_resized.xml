@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<SB type="N">                  // Right Indicative/Left Indicative/Non-indicative signboards
+	<info>                 
+		<dir>
+			<text>
+				<eng>DIRECTOR'S OFFICE</eng>
+				<hin>निदेशक कार्यालय </hin>	
+			</text>
+			<arrow>R</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>SEMINAR HALL</eng>
+				<hin>संगोष्ठी सभागार</hin>	
+			</text>
+			<arrow>R</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>SECURITY CONTROL ROOM</eng>
+				<hin>सुरक्षा नियंत्रण कक्ष</hin>	
+			</text>
+			<arrow>R</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>TEXTILE TECH. DEPARTMENT</eng>
+				<hin>वस्त्र प्रौद्योगिकी विभाग</hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+		<dir>
+			<text>
+				<eng>STATE BANK OF INDIA</eng>
+				<hin>भारतीय स्टेट बैंक </hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir><dir>
+			<text>
+				<eng>IDDC</eng>
+				<hin>उपकरण अभिकल्प विकास केन्द्र</hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir><dir>
+			<text>
+				<eng>WORKSHOP</eng>
+				<hin>कार्यशाल ा</hin>	
+			</text>
+			<arrow>L</arrow>         // Right Left Up Down None depending on arrow direction
+		</dir>
+	</info>
+	<extrainf>
+		<glare>N</glare>
+		<shadow>N</shadow>
+		<blur>N</blur>
+		<skew>N</skew>
+	</extrainf>
+	<dim>
+		<Width>W</Width>
+		<Height>H</Height>
+		<TopLeftX>X</TopLeftX>
+		<TopLeftY>Y</TopLeftY>
+	</dim> 
+</SB>

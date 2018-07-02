@@ -1,0 +1,1 @@
+The file "Accuracy.xlsx" contains the processed information for face, cow and dog. It contains the detaild accuracies of face, cow and dog

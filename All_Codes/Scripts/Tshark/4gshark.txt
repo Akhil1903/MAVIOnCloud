@@ -1,0 +1,18 @@
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/mixed/1pm/mixed_4g.txt
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/Face/1pm/1face_4g.txt
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/Face/1pm/1face_4g_All.txt
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/Face/1pm/2face_4g.txt
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/Face/1pm/2face_4g_All.txt
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/Face/1pm/4face_4g.txt
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/Face/1pm/4face_4g_All.txt
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/Animal/1pm/animal_4g.txt
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/Animal/1pm/animal_4g_All.txt
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/SBD/1pm/sbd_Eng_4g.txt
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/SBD/1pm/sbd_Eng_4g_All.txt
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/SBD/1pm/sbd_Both_4g.txt
+tshark -i wlan0 -f "tcp" > /home/pi/Desktop/fin_analysis/airtel4g/SBD/1pm/sbd_Both_4g_All.txt
+
+
+
+
+

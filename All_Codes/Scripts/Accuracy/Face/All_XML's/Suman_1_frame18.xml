@@ -1,0 +1,26 @@
+<annotation>
+  <folder>1</folder>
+  <filename>frame18</filename>
+  <path>$PATH/FR_Database/FR_Train_image/Suman/1/frame18.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>640</width>
+    <height>480</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Suman</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>366</xmin>
+      <ymin>139</ymin>
+      <xmax>497</xmax>
+      <ymax>330</ymax>
+    </bndbox>
+  </object>
+</annotation>

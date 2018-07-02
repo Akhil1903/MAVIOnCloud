@@ -1,0 +1,26 @@
+<annotation>
+  <folder>2</folder>
+  <filename>frame42</filename>
+  <path>$PATH/FR_Database/FR_Train_image/Himanshu/2/frame42.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>640</width>
+    <height>480</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Himanshu</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>201</xmin>
+      <ymin>160</ymin>
+      <xmax>310</xmax>
+      <ymax>288</ymax>
+    </bndbox>
+  </object>
+</annotation>
