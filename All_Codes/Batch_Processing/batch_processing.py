@@ -19,12 +19,13 @@ from oauth2client.client import GoogleCredentials
 from time import time
 
 def main():
-    #takephoto() # First take a picture
-    """Run a label request on a single image"""
+    
+    
     with open("data.txt") as f:
         content = f.readlines()
 # you may also want to remove whitespace characters like `\n` at the end of each line
     content = [x.strip() for x in content]
+    #Start the timer	
     t0 = time()
     credentials = GoogleCredentials.get_application_default()
     service = discovery.build('vision', 'v1', credentials=credentials)
@@ -45,6 +46,7 @@ def main():
     
     batch_request = []
     ind = 0
+#Form the request body
     for j in range(0,batches):
 		batch_request = []		    	
 		for i in range(0,batch_size):
@@ -93,6 +95,7 @@ def main():
         		else:
         			sys.stdout.write("False")
 			print("\n")
+    #End timer
     t2 = time()
     #print i
            # output.append( "image " + str(i) +":  %f" %(t1-t2))
