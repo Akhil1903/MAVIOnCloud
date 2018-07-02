@@ -73,7 +73,7 @@ int dummy1 = 0;
 struct sockaddr_in serv_addr;
 struct hostent *server;
 int animals;
-
+//The following function should be used if PivotHead camera is used in the prototype
 void *thread_pivot(void* x)
 {
   stringstream stream1;
@@ -90,7 +90,7 @@ void *thread_pivot(void* x)
 
     system(stream1.str().c_str());
 }
-
+//The following function is the controller function which runs the script interacting with cloud.
 void *run_all(void* x)
 {
 FILE *fp;
@@ -274,7 +274,7 @@ int main(int argc, char *argv[]) {
 	uuid_t uuid = { 0 };
     //Change this to your apps UUID
 	char *uuid_str="446118f0-8b1e-11e2-9e96-0800200c9a66";
-	char dest[18] = "78:02:F8:82:44:72";
+	char dest[18] = "78:02:F8:82:44:72";//Akhil's Mobile's Bluetooth address. Change it to the desired mobile's bluetooth address
 	uint32_t range = 0x0000ffff;
 	sdp_list_t *response_list = NULL, *search_list, *attrid_list;
 	int s, loco_channel = -1, status;
