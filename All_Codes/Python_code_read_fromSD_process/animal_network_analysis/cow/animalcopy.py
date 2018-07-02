@@ -18,9 +18,7 @@ from oauth2client.client import GoogleCredentials
 from time import time
 
 def main():
-    #takephoto() # First take a picture
-    """Run a label request on a single image"""
-    
+   #data.txt contains the list of images
     with open("data.txt") as f:
         content = f.readlines()
 # you may also want to remove whitespace characters like `\n` at the end of each line
