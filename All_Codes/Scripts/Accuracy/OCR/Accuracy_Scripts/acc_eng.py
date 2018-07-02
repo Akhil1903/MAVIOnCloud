@@ -14,12 +14,12 @@ def common(str1,str2):
 	commonChars = list(commonDict.elements())
 	return len(commonChars)
 
-with open("/home/pi/Accuracy_new/OCR/xml_parsed/data_orig.txt") as f:
+with open("<path to All_codes>/Scripts/Accuracy/OCR/xml_parsed/data_orig.txt") as f:
     content_original = f.readlines()
 
 content_original = [x.strip() for x in content_original]
 
-with open("/home/pi/Accuracy_new/OCR/Output_English/eng_out.txt") as f:
+with open("<path to All_codes>/Scripts/Accuracy/OCR/Output_English/eng_out.txt") as f:
    content_mine = f.readlines()
 
 content_mine = [x.strip() for x in content_mine]
@@ -34,7 +34,7 @@ matched_chars = 0
 total_chars = 0
 
 for i in range(0,len(content_mine)):
-	tem = "/home/pi/Accuracy_new/OCR/xml_parsed/" + content_original[i]
+	tem = "<path to All_codes>/Scripts/Accuracy/OCR/xml_parsed/" + content_original[i]
         with open(tem) as f:
                 original_data_arr = f.readlines()
 	original_data_arr = [x.strip() for x in original_data_arr]
@@ -53,7 +53,7 @@ for i in range(0,len(content_mine)):
 #	print orig
         mine_data = ""
 	mine_data_full = ""
-        tem = "/home/pi/Accuracy_new/OCR/Output_English/" + content_mine[i]
+        tem = "<path to All_codes>/Scripts/Accuracy/OCR/Output_English/" + content_mine[i]
         with open(tem) as f:
                 mine_data_arr = f.readlines()
         mine_data_arr = [x.strip() for x in mine_data_arr]
