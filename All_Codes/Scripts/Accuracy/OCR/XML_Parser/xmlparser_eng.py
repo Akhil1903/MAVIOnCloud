@@ -26,7 +26,7 @@ for i in range(0,len(content)):
 		# data.append(x2[i].firstChild.nodeValue.encode('utf-8'))	
 #    print len(x1)
     #print xmin
-    fname = "/home/pi/Accuracy_new/OCR/xml_parsed_eng/" + filename + "orig.txt" 
+    fname = "<path to All_codes>/Scripts/Accuracy/OCR/xml_parsed_eng/" + filename + "orig.txt" 
     #dict[content[i]].append(illum)
     print fname
     with open(fname,"w") as f:
