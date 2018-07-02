@@ -22,8 +22,7 @@ credentials = GoogleCredentials.get_application_default()
 service = discovery.build('vision', 'v1', credentials=credentials)
 
 def run_algos():
-    #takephoto() # First take a picture
-    """Run a label request on a single image"""
+    
     t0 = time()
     #print sys.argv[2]
     #print "adadadad"
