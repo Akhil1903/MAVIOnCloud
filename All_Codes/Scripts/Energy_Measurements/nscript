@@ -1,6 +1,6 @@
 #!/bin/bash
-export GOOGLE_APPLICATION_CREDENTIALS=/home/pi/Desktop/apikey.json
-cd /home/pi/visionex/mixed_resized
+export GOOGLE_APPLICATION_CREDENTIALS=<path to the key file on Raspberry Pi>
+cd <path to All_Codes>/Python_code_read_fromSD_process/mixed_resized
 python tem.py
 cd ../face_our_dataset_network_analysis
 cd 1
