@@ -1,5 +1,5 @@
 #!/bin/bash
-export GOOGLE_APPLICATION_CREDENTIALS=/home/pi/Desktop/apikey.json
+export GOOGLE_APPLICATION_CREDENTIALS=<path to the key file on Raspberry Pi>
 cd mixed_resized
 python tem.py
 sleep 5
